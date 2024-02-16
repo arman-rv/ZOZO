@@ -1,7 +1,9 @@
+import Top from "./top";
+
 const Content = () => {
     return (
       <div>
-        <div></div>
+        <Top />
       </div>
     );
   };
