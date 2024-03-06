@@ -1,9 +1,7 @@
-import Top from "./top";
 
 const Content = () => {
     return (
-      <div>
-        <Top />
+      <div className="h-[1000px]  w-full mt-5">
       </div>
     );
   };

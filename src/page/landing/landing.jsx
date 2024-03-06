@@ -4,12 +4,12 @@ import { Header } from "../../components/header/header";
 
 const Landing = () => {
     return ( 
-        <div className="w-[clamp(100px,100%,1400px)] border">
+        <div className="top-gradient w-[clamp(100px,100%,1500px)]  flex flex-col">
             <Header />
             <Content />
             <Footer />
         </div>
-     );
+    );
 }
 
 export default Landing;
