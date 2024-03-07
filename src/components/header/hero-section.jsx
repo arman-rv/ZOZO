@@ -4,7 +4,6 @@ import homeImage1 from "../../assets/images/home1.jpg";
 import homeImage2 from "../../assets/images/home2.jpg";
 
 const HeroSection = () => {
-
   return (
     <div className="mt-5 mb-20  h-[600px] flex flex-row-reverse w-full">
       <div className="flex h-full w-1/2">

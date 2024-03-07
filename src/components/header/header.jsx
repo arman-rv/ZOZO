@@ -18,7 +18,9 @@ const Header = () => {
           ZOZO{" "}
         </div>
       </div>
-      <div className="flex flex-row-reverse pl-1">
+      <div
+        className="flex flex-row-reverse pl-1"
+      >
         <HeroSection />
       </div>
     </div>
