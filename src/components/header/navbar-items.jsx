@@ -1,9 +1,12 @@
-const Items = ({title , link}) => {
-    return ( 
-        <div className="custom-text text-2xl cursor-pointer font-bold" >
-            {title} 
-        </div>
-     );
-}
- 
-export  {Items};
+const Items = ({ title, link }) => {
+  return (
+    <a
+      href={link}
+      className="text-primary-600 text-2xl cursor-pointer font-bold"
+    >
+      {title}
+    </a>
+  );
+};
+
+export { Items };
