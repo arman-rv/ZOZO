@@ -1,11 +1,8 @@
-const Items = ({ title, link }) => {
+const Items = ({ title }) => {
   return (
-    <a
-      href={link}
-      className="text-primary-600 text-2xl cursor-pointer font-bold"
-    >
+    <div className="text-primary-600 text-2xl cursor-pointer font-bold">
       {title}
-    </a>
+    </div>
   );
 };
 

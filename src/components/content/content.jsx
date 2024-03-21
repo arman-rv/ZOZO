@@ -16,10 +16,11 @@ const Content = () => {
   useEffect(() => {
     AOS.init();
   }, []);
+
   return (
     <div className="relative w-full px-5 -mt-[70px] mb-20">
       {/* gallery */}
-      <div id="gallery" className="absolute -top-[92px]"></div>
+      <div className="absolute -top-[92px]"></div>
       <div
         className="w-full flex flex-col rounded-2xl bg-primary shadow-[16px_16px_22px_4px_#2b2b2b16] overflow-hidden
          p-5 "
@@ -34,10 +35,7 @@ const Content = () => {
           <GalleryItems img={gal4} />
           <GalleryItems img={gal5} />
         </div>
-        <h1
-          id="about"
-          className="text-4xl font-semibold text-center pt-5 text-secondary bg-primary"
-        >
+        <h1 className="text-4xl font-semibold text-center pt-5 text-secondary bg-primary">
           zozo | create your own style
         </h1>
       </div>

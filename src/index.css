@@ -35,6 +35,7 @@ html,
 
 .leaflet-container {
   height: 100%;
+  user-select: none;
 }
 
 .dark .leaflet-layer {

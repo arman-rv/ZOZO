@@ -5,22 +5,20 @@ const Header = () => {
   return (
     <div>
       <div className="flex gap-10 pt-4 pb-5 px-14 relative select-none">
-        <Items title="گالری" link="#gallery" />
+        <Items title="گالری" />
         <div className="custom-text text-xl font-bold"> | </div>
-        <Items title="درباره ما" link="#about" />
+        <Items title="درباره ما" />
         <div className="custom-text text-xl font-bold"> | </div>
-        <Items title="ارتباط با ما" link="#contact-us" />
+        <Items title="ارتباط با ما" />
         <div className="custom-text text-xl font-bold"> | </div>
-        <Items title="مکان فروشگاه" link="#map" />
+        <Items title="مکان فروشگاه" />
 
         <div className="custom-text font-semibold text-5xl absolute left-8 top-2 font-zozo">
           {" "}
           ZOZO{" "}
         </div>
       </div>
-      <div
-        className="flex flex-row-reverse pl-1"
-      >
+      <div className="flex flex-row-reverse pl-1">
         <HeroSection />
       </div>
     </div>
