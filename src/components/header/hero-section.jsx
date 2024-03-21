@@ -29,7 +29,7 @@ const HeroSection = () => {
           <h1 className="font-semibold text-4xl pb-12 text-primary-600">
             بوتیک زوزو ، همون چیزی که نیاز دارید...
           </h1>
-          <p className="text-2xl pl-10 leading-8 ">
+          <div className="text-2xl pl-10 leading-8 ">
             <Typewriter
               onInit={(typewriter) => {
                 typewriter
@@ -40,9 +40,9 @@ const HeroSection = () => {
                 // .pauseFor(2500)
               }}
             />
-          </p>
+          </div>
         </div>
-        <div className="custom-text font-zozo font-bold text-[230px] h-1/2 text-center">
+        <div className="custom-text font-zozo font-bold text-[230px] h-1/2 text-center select-none">
           ZOZO
         </div>
       </div>

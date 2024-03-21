@@ -1,8 +1,10 @@
-const Items = ({ title }) => {
+import { Link as Scroll } from "react-scroll";
+
+const Items = ({ title ,link  }) => {
   return (
-    <div className="text-primary-600 text-2xl cursor-pointer font-bold">
+    <Scroll to={link} smooth duration={1000} className="text-primary-600 text-2xl cursor-pointer font-bold">
       {title}
-    </div>
+    </Scroll>
   );
 };
 

@@ -20,7 +20,7 @@ const Content = () => {
   return (
     <div className="relative w-full px-5 -mt-[70px] mb-20">
       {/* gallery */}
-      <div className="absolute -top-[92px]"></div>
+      <div id="gallery" className="absolute -top-[92px]"></div>
       <div
         className="w-full flex flex-col rounded-2xl bg-primary shadow-[16px_16px_22px_4px_#2b2b2b16] overflow-hidden
          p-5 "
@@ -35,19 +35,19 @@ const Content = () => {
           <GalleryItems img={gal4} />
           <GalleryItems img={gal5} />
         </div>
-        <h1 className="text-4xl font-semibold text-center pt-5 text-secondary bg-primary">
+        <h1  id="about-us" className="text-4xl font-semibold text-center pt-5 text-secondary bg-primary">
           zozo | create your own style
         </h1>
       </div>
 
-      <div className="flex mt-28 gap-8 pl-14 flex-row-reverse">
+      <div className="flex mt-28 gap-14 pl-10 flex-row-reverse">
         <div
-          className="w-1/3 px-10 flex flex-col gap-4 pt-6"
+          className="w-1/3 flex flex-col gap-6 pt-4 pl-4"
           data-aos="fade-right"
           data-aos-offset="170"
           data-aos-duration="1200"
         >
-          <h3 className="font-zozo text-5xl font-bold text-secondary">ZOZO</h3>
+          <h3 className="font-zozo text-6xl font-bold text-secondary">ZOZO</h3>
           <p className="text-2xl text-secondary ">
             {" "}
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
@@ -56,7 +56,7 @@ const Content = () => {
             با هدف بهبود ابزارهای کاربردی می باشد. حال و آینده شناخت فراوان
             جامعه و متخصصان را می طلبد ...{" "}
           </p>
-          <a className="cursor-pointer text-primary text-[22px] pb-2 pt-1 rounded-full bg-secondary-550 w-5/12 text-center mt-3">
+          <a className="cursor-pointer text-primary text-2xl pb-3 pt-2 rounded-full bg-secondary-550 w-6/12 text-center mt-3">
             {" "}
             مشاهده بیشتر
           </a>
@@ -73,7 +73,7 @@ const Content = () => {
           </div>
           <p
             style={{ direction: "ltr" }}
-            className=" w-1/2 text-7xl font-semibold text-secondary-550 flex items-center pl-9"
+            className=" w-1/2 text-7xl font-semibold text-secondary flex items-center pl-9"
           >
             LIFE ISN'T PERFECT BUT YOUR OUTFIT CAN BE.
           </p>

@@ -1,13 +1,23 @@
-const Items = ({ img, title, desc }) => {
+import { Link } from "react-router-dom";
+
+const Items = ({ img, title, desc, link }) => {
   return (
-    <div className="flex w-full items-center gap-4">
-      <div className="w-[68px] brightness-95">
+    <div className="flex w-full items-center gap-4 text-primary">
+      <div className="w-[68px]">
         <img src={img} className="w-full h-ull" />
       </div>
-      <p className="text-primary-600 text-2xl">
+      <div className="text-xl flex flex-col gap-2">
         <span className="font-bold">{title}</span>
-        {desc}
-      </p>
+        <p className="">
+          {link ? (
+            <Link target="blank" className="underline cursor-pointer" to={link}>
+              {desc}
+            </Link>
+          ) : (
+            desc
+          )}
+        </p>
+      </div>
     </div>
   );
 };

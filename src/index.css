@@ -10,7 +10,6 @@ body,
 html,
 #root {
   scrollbar-width: thin;
-  /* scroll-behavior: smooth; */
   direction: rtl;
   display: flex;
   width: 100%;
@@ -24,11 +23,11 @@ html,
 }
 
 .bottom-gradient {
-  background: linear-gradient(33.5deg, #2b2b2b 33.6%, #eee 10%);
+  background: linear-gradient(33.5deg, #2b2b2b 30.6%, #eee 10%);
 }
 .custom-text {
-  color: #d6d6d6;
-  mix-blend-mode: exclusion;
+  color: #d6d6d6 !important;
+  mix-blend-mode: exclusion !important;
 }
 
 /* for leaflet map */
