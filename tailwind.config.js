@@ -20,7 +20,7 @@ export default {
         },
       },
       fontFamily: {
-        zozo: "Bodoni",
+        zozo: "Bodoni cursive !important" ,
       },
     },
   },

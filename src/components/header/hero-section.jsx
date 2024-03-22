@@ -30,7 +30,7 @@ const HeroSection = () => {
           <h1 className="font-semibold text-4xl pb-12 text-primary-600 max-[1350px]:text-[33px] max-[1200px]:text-3xl max-[1100px]:text-2xl max-[960px]:text-xl max-[800px]:pb-8 max-[730px]:text-lg max-[730px]:pb-6 max-[630px]:pb-5 max-[560px]:text-base max-[500px]:text-sm">
             بوتیک زوزو ، همون چیزی که نیاز دارید...
           </h1>
-          <div className="text-2xl pl-10 leading-8 max-[1350px]:text-xl max-[1200px]:text-lg max-[1100px]:text-base max-[960px]:text-sm max-[730px]:text-xs  max-[630px]:text-sm max-[560px]:text-xs">
+          <div className="text-2xl pl-10 leading-8 max-[1350px]:text-xl max-[1200px]:text-lg max-[1100px]:text-base max-[960px]:text-sm max-[730px]:text-xs  max-[630px]:text-sm max-[560px]:text-xs max-[460px]:pl-5">
             <Typewriter
               onInit={(typewriter) => {
                 typewriter
