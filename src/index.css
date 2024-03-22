@@ -16,6 +16,7 @@ html,
   justify-content: center;
   font-family: "IBM Plex Sans Arabic";
   background: #eee;
+  overflow-x: hidden;
 }
 
 .top-gradient {

@@ -11,36 +11,62 @@ import gif from "../../assets/images/zozo.gif";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { Slider } from "./slider";
 
 const Content = () => {
   useEffect(() => {
     AOS.init();
   }, []);
 
+  const gal = [gal1, gal2, gal3, gal4, gal5];
+
   return (
-    <div className="relative w-full px-5 -mt-[70px] mb-20">
+    <div className="relative w-full px-5 -mt-[100px] mb-20 max-[1100px]:-mt-[110px] max-[880px]:-mt-[120px]">
       {/* gallery */}
       <div id="gallery" className="absolute -top-[92px]"></div>
       <div
         className="w-full flex flex-col rounded-2xl bg-primary shadow-[16px_16px_22px_4px_#2b2b2b16] overflow-hidden
-         p-5 "
+         p-5  max-[1350px]:p-4 max-[1100px]:p-3 max-[730px]:p-4"
         data-aos="fade-up"
         data-aos-offset="170"
         data-aos-duration="1200"
       >
-        <div className="flex gap-5 w-full">
-          <GalleryItems img={gal1} />
-          <GalleryItems img={gal2} />
-          <GalleryItems img={gal3} />
-          <GalleryItems img={gal4} />
-          <GalleryItems img={gal5} />
+        <div className="flex gap-5 w-full max-[1350px]:gap-4 max-[1100px]:gap-3 max-[650px]:hidden">
+          {gal.map((image, index) => {
+            return <GalleryItems key={index} img={image} />;
+          })}
         </div>
-        <h1  id="about-us" className="text-4xl font-semibold text-center pt-5 text-secondary bg-primary">
+        {/* slider after max-700px */}
+        <div className="hidden max-[650px]:block">
+          <Slider
+            sliderItems={gal.map((image, index) => {
+              return (
+                <div key={index} className="h-[180px] w-full max-[560px]:h-[150px] max-[500px]:h-[130px] max-[460px]:h-[115px]">
+                  <img src={image} className="w-full h-full rounded-xl" />
+                </div>
+              );
+            })}
+            slidesPerView={3}
+            delay={1500}
+            spaceBetween={16}
+            speed={2000}
+            reverseDirection
+            className="mx-auto h-full w-full overflow-visible"
+          />
+        </div>
+
+        <h1
+          id="about-us"
+          className="text-4xl font-semibold text-center pt-5 text-secondary bg-primary max-[1350px]:text-3xl max-[1100px]:text-2xl max-[500px]:text-xl max-[560px]:pt-3"
+        >
           zozo | create your own style
         </h1>
       </div>
 
-      <div className="flex mt-28 gap-14 pl-10 flex-row-reverse">
+      <div
+        className="flex mt-28 gap-14 pl-10 flex-row-reverse 
+      max-[1500px]:gap-10"
+      >
         <div
           className="w-1/3 flex flex-col gap-6 pt-4 pl-4"
           data-aos="fade-right"
@@ -73,7 +99,7 @@ const Content = () => {
           </div>
           <p
             style={{ direction: "ltr" }}
-            className=" w-1/2 text-7xl font-semibold text-secondary flex items-center pl-9"
+            className=" w-1/2 text-7xl font-semibold text-secondary flex items-center pl-9 max-[1500px]:pl-6"
           >
             LIFE ISN'T PERFECT BUT YOUR OUTFIT CAN BE.
           </p>
