@@ -69,12 +69,12 @@ const Content = () => {
       >
         <div
           className="w-1/3 flex flex-col gap-6 pt-4 pl-4
-          max-[1350px]:gap-3 max-[1350px]:pt-1 max-[1200px]:pt-0 max-[1100px]:pl-14 max-[960px]:pl-4 max-[800px]:pl-0 max-[800px]:gap-1 max-[500px]:w-full max-[500px]:gap-3"
+          max-[1350px]:gap-3 max-[1350px]:pt-1 max-[1200px]:pt-0 max-[1100px]:pl-14 max-[960px]:pl-4 max-[800px]:pl-0 max-[800px]:gap-1 max-[500px]:w-full max-[500px]:gap-3 max-[500px]:items-center max-[500px]:text-center"
           data-aos="fade-right"
           data-aos-offset="170"
           data-aos-duration="1200"
         >
-          <h3 className="font-zozo text-6xl font-bold text-secondary max-[1200px]:text-5xl max-[960px]:text-4xl max-[800px]:text-3xl max-[500px]:text-4xl">ZOZO</h3>
+          <h3 className="font-zozo text-6xl font-bold text-secondary max-[1200px]:text-5xl max-[960px]:text-4xl max-[800px]:text-3xl max-[500px]:text-[39px] max-[500px]:pb-1">ZOZO</h3>
           <p className="text-2xl text-secondary max-[1200px]:text-xl max-[1100px]:text-base max-[960px]:text-sm max-[730px]:text-xs max-[650px]:text-[10px] max-[500px]:text-sm">
             {" "}
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
@@ -84,7 +84,7 @@ const Content = () => {
             جامعه و متخصصان را می طلبد ...{" "}
           </p>
           <a className="cursor-pointer text-primary text-2xl pb-3 pt-2 rounded-full bg-secondary-550 w-fit text-center mt-3 px-7
-          max-[1200px]:text-xl max-[1100px]:text-base max-[1100px]:py-2 max-[1100px]:pt-1 max-[960px]:text-sm max-[960px]:px-5 max-[730px]:text-xs max-[650px]:text-[10px] max-[650px]:py-[3px] max-[650px]:px-3 max-[650px]:mt-2 max-[500px]:text-sm max-[500px]:py-1 max-[500px]:px-6 max-[500px]:pb-2 max-[500px]:mb-2">
+          max-[1200px]:text-xl max-[1100px]:text-base max-[1100px]:py-2 max-[1100px]:pt-1 max-[960px]:text-sm max-[960px]:px-5 max-[730px]:text-xs max-[650px]:text-[10px] max-[650px]:py-[3px] max-[650px]:px-3 max-[650px]:mt-2 max-[500px]:text-sm max-[500px]:py-1 max-[500px]:px-6 max-[500px]:pb-2 max-[500px]:mb-4">
             {" "}
             مشاهده بیشتر
           </a>
@@ -103,7 +103,7 @@ const Content = () => {
           <p
             style={{ direction: "ltr" }}
             className=" w-1/2 text-7xl font-semibold text-secondary flex items-center pl-9 max-[1500px]:pl-6
-            max-[1350px]:text-6xl max-[1350px]:px-10 max-[1200px]:text-[57px] max-[1200px]:px-3 max-[1200px]:pl-5 max-[1100px]:text-5xl max-[960px]:text-[40px] max-[960px]:pl-2 max-[800px]:text-4xl max-[800px]:pl-0 max-[730px]:text-3xl max-[730px]:pl-1 max-[650px]:text-2xl max-[650px]:pl-0 max-[500px]:text-[30px]"
+            max-[1350px]:text-6xl max-[1350px]:px-10 max-[1200px]:text-[57px] max-[1200px]:px-3 max-[1200px]:pl-5 max-[1100px]:text-5xl max-[960px]:text-[40px] max-[960px]:pl-2 max-[800px]:text-4xl max-[800px]:pl-0 max-[730px]:text-3xl max-[730px]:pl-1 max-[650px]:text-2xl max-[650px]:pl-0 max-[500px]:text-[30px] max-[400px]:text-[29px]"
           >
             LIFE ISN'T PERFECT BUT YOUR OUTFIT CAN BE.
           </p>
