@@ -19,9 +19,9 @@ const Footer = () => {
   return (
     <div className="flex pb-16 gap-12 max-[1350px]:pb-10 max-[1350px]:gap-8 max-[960px]:pb-7 max-[730px]:flex-col-reverse max-[730px]:pb-5 max-[730px]:gap-7 overflow-hidden">
       <p
-        className="hidden text-xl text-primary max-[730px]:block text-center"
+        className="hidden text-xl text-primary max-[730px]:block text-center max-[500px]:text-lg"
         data-aos="fade-up"
-        data-aos-offset="20"
+        data-aos-offset="25"
         data-aos-duration="1200"
       >
         <span className="font-bold pr-1">ZOZO / </span>build with
@@ -34,7 +34,7 @@ const Footer = () => {
 
       <div
         id="map"
-        className="w-7/12 flex items-center pr-10 h-[465px] pt-5 max-[1200px]:h-[400px] max-[1200px]:pr-5 max-[960px]:h-[350px] max-[880px]:h-[320px] max-[800px]:h-[280px] max-[730px]:w-full max-[730px]:px-10 max-[630px]:h-[250px]"
+        className="w-7/12 flex items-center pr-10 h-[465px] pt-5 max-[1200px]:h-[400px] max-[1200px]:pr-5 max-[960px]:h-[350px] max-[880px]:h-[320px] max-[800px]:h-[280px] max-[730px]:w-full max-[730px]:px-10 max-[630px]:h-[250px] max-[500px]:px-5 max-[500px]:h-[220px]"
       >
         <div
           className="w-full h-full rounded-2xl overflow-hidden shadow-[7px_10px_15px_0_#2b2b2b47]"
