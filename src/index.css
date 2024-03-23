@@ -20,12 +20,63 @@ html,
 }
 
 .top-gradient {
-  background: linear-gradient(33.5deg, #eee 74.75%, #2b2b2b 10%);
+  background: linear-gradient(33.5deg, #eee 74.71%, #2b2b2b 10%);
+}
+@media only screen and (max-width: 800px) {
+  .top-gradient {
+    background: linear-gradient(33.5deg, #eee 73.77%, #2b2b2b 10%);
+  }
+}
+@media only screen and (max-width: 730px) {
+  .top-gradient {
+    background: linear-gradient(9deg, #eee 82.7%, #2b2b2b 10%);
+  }
+}
+@media only screen and (max-width: 630px) {
+  .top-gradient {
+    background: linear-gradient(6deg, #eee 82.74%, #2b2b2b 10%);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .top-gradient {
+    background: linear-gradient(5.9deg, #eee 84.88%, #2b2b2b 10%);
+  }
 }
 
 .bottom-gradient {
-  background: linear-gradient(33.5deg, #2b2b2b 30.6%, #eee 10%);
+  background: linear-gradient(33.5deg, #2b2b2b 31.022%, #eee 10%);
 }
+@media only screen and (max-width: 1200px) {
+  .bottom-gradient {
+    background: linear-gradient(33.5deg, #2b2b2b 31.77%, #eee 10%);
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .bottom-gradient {
+    background: linear-gradient(33.5deg, #2b2b2b 33.7%, #eee 10%);
+  }
+}
+@media only screen and (max-width: 730px) {
+  .bottom-gradient {
+    background: linear-gradient(5.9deg, #2b2b2b 55%, #eee 10%);
+  }
+}
+@media only screen and (max-width: 630px) {
+  .bottom-gradient {
+    background: linear-gradient(5.9deg, #2b2b2b 53.5%, #eee 10%);
+  }
+}
+@media only screen and (max-width: 560px) {
+  .bottom-gradient {
+    background: linear-gradient(5.9deg, #2b2b2b 54.8%, #eee 10%);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .bottom-gradient {
+    background: linear-gradient(5.9deg, #2b2b2b 47.5%, #eee 10%);
+  }
+}
+
 .custom-text {
   color: #d6d6d6 !important;
   mix-blend-mode: exclusion !important;
@@ -69,7 +120,7 @@ html,
   display: none;
 }
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 1100px) {
   .leaflet-touch .leaflet-bar {
     border-radius: 7px;
     gap: 7px;
@@ -77,3 +128,19 @@ html,
     margin: 13px 11px;
   }
 }
+
+/* responsive size */
+/* 
+max-[1350px]:
+max-[1200px]:
+max-[1100px]:
+max-[960px]:
+max-[880px]:
+max-[800px]:
+max-[730px]:
+max-[650px]:
+max-[630px]:
+max-[560px]:
+max-[500px]:
+max-[460px]: 
+*/

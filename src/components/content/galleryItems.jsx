@@ -7,16 +7,3 @@ const GalleryItems = ({img}) => {
 }
  
 export default GalleryItems;
-
-// max-[1350px]:
-// max-[1200px]:
-// max-[1100px]:
-// max-[960px]:
-// max-[880px]:
-// max-[800px]:
-// max-[730px]:
-// max-[650px]:
-// max-[630px]:
-// max-[560px]:
-// max-[500px]:
-// max-[460px]:

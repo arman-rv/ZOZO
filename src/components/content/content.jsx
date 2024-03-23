@@ -21,7 +21,7 @@ const Content = () => {
   const gal = [gal1, gal2, gal3, gal4, gal5];
 
   return (
-    <div className="relative w-full px-5 -mt-[100px] mb-20 max-[1100px]:-mt-[110px] max-[880px]:-mt-[120px]">
+    <div className="relative w-full px-5 -mt-[100px] mb-20 max-[1100px]:-mt-[110px] max-[880px]:-mt-[120px] max-[880px]:mb-16">
       {/* gallery */}
       <div id="gallery" className="absolute -top-[92px]"></div>
       <div
@@ -65,16 +65,17 @@ const Content = () => {
 
       <div
         className="flex mt-28 gap-14 pl-10 flex-row-reverse 
-      max-[1500px]:gap-10"
+      max-[1500px]:gap-10 max-[650px]:pl-1 max-[650px]:gap-6 max-[500px]:flex-col max-[880px]:mt-20 max-[650px]:mt-16 max-[500px]:mt-12"
       >
         <div
-          className="w-1/3 flex flex-col gap-6 pt-4 pl-4"
+          className="w-1/3 flex flex-col gap-6 pt-4 pl-4
+          max-[1350px]:gap-3 max-[1350px]:pt-1 max-[1200px]:pt-0 max-[1100px]:pl-14 max-[960px]:pl-4 max-[800px]:pl-0 max-[800px]:gap-1 max-[500px]:w-full max-[500px]:gap-3"
           data-aos="fade-right"
           data-aos-offset="170"
           data-aos-duration="1200"
         >
-          <h3 className="font-zozo text-6xl font-bold text-secondary">ZOZO</h3>
-          <p className="text-2xl text-secondary ">
+          <h3 className="font-zozo text-6xl font-bold text-secondary max-[1200px]:text-5xl max-[960px]:text-4xl max-[800px]:text-3xl max-[500px]:text-4xl">ZOZO</h3>
+          <p className="text-2xl text-secondary max-[1200px]:text-xl max-[1100px]:text-base max-[960px]:text-sm max-[730px]:text-xs max-[650px]:text-[10px] max-[500px]:text-sm">
             {" "}
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
             استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در
@@ -82,13 +83,15 @@ const Content = () => {
             با هدف بهبود ابزارهای کاربردی می باشد. حال و آینده شناخت فراوان
             جامعه و متخصصان را می طلبد ...{" "}
           </p>
-          <a className="cursor-pointer text-primary text-2xl pb-3 pt-2 rounded-full bg-secondary-550 w-6/12 text-center mt-3">
+          <a className="cursor-pointer text-primary text-2xl pb-3 pt-2 rounded-full bg-secondary-550 w-fit text-center mt-3 px-7
+          max-[1200px]:text-xl max-[1100px]:text-base max-[1100px]:py-2 max-[1100px]:pt-1 max-[960px]:text-sm max-[960px]:px-5 max-[730px]:text-xs max-[650px]:text-[10px] max-[650px]:py-[3px] max-[650px]:px-3 max-[650px]:mt-2 max-[500px]:text-sm max-[500px]:py-1 max-[500px]:px-6 max-[500px]:pb-2 max-[500px]:mb-2">
             {" "}
             مشاهده بیشتر
           </a>
         </div>
         <div
-          className="overflow-hidden flex flex-row-reverse gap-5 rounded-2xl bg-primary w-2/3  h-[450px] shadow-[13px_13px_24px_4px_#2b2b2b20]"
+          className="overflow-hidden flex flex-row-reverse gap-5 rounded-2xl bg-primary w-2/3  h-[450px] shadow-[13px_13px_24px_4px_#2b2b2b20]
+          max-[1200px]:h-[360px] max-[1100px]:h-[320px] max-[960px]:h-[270px] max-[730px]:h-[230px] max-[650px]:h-[200px] max-[500px]:w-full"
           data-aos="fade-left"
           data-aos-offset="170"
           data-aos-duration="1200"
@@ -99,7 +102,8 @@ const Content = () => {
           </div>
           <p
             style={{ direction: "ltr" }}
-            className=" w-1/2 text-7xl font-semibold text-secondary flex items-center pl-9 max-[1500px]:pl-6"
+            className=" w-1/2 text-7xl font-semibold text-secondary flex items-center pl-9 max-[1500px]:pl-6
+            max-[1350px]:text-6xl max-[1350px]:px-10 max-[1200px]:text-[57px] max-[1200px]:px-3 max-[1200px]:pl-5 max-[1100px]:text-5xl max-[960px]:text-[40px] max-[960px]:pl-2 max-[800px]:text-4xl max-[800px]:pl-0 max-[730px]:text-3xl max-[730px]:pl-1 max-[650px]:text-2xl max-[650px]:pl-0 max-[500px]:text-[30px]"
           >
             LIFE ISN'T PERFECT BUT YOUR OUTFIT CAN BE.
           </p>
