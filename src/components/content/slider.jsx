@@ -32,7 +32,7 @@ const Slider = ({
   //   const element = document.querySelector(".swiper-wrapper");
   //   element.setAttribute("style", "transition-timing-function: Linear;");
   // }, []);
-  
+
   return (
     <>
       <Swiper
@@ -53,6 +53,12 @@ const Slider = ({
         effect={effect}
         centeredSlides={centeredSlides}
         coverflowEffect={coverflowEffect}
+        breakpoints={{
+          460: {
+            slidesPerView: 3,
+            spaceBetween:16
+          },
+        }}
       >
         {sliderItems.map((item, index) => {
           return <SwiperSlide key={index}>{item}</SwiperSlide>;

@@ -19,14 +19,12 @@ const Footer = () => {
   return (
     <div className="flex pb-16 gap-12 max-[1350px]:pb-10 max-[1350px]:gap-8 max-[960px]:pb-7 max-[730px]:flex-col-reverse max-[730px]:pb-5 max-[730px]:gap-7 overflow-hidden">
       <p
-        className="hidden text-xl text-primary max-[730px]:block text-center max-[500px]:text-lg"
+        className="hidden text-lg text-primary max-[730px]:block text-center max-[500px]:text-base"
         data-aos="fade-up"
         data-aos-offset="25"
         data-aos-duration="1200"
       >
-        <span className="font-bold pr-1">ZOZO / </span>build with
-        <span className="text-2xl"> &hearts; </span>
-        by
+        <span className="font-bold pr-1">ZOZO / </span>build with love by
         <Link className="underline pl-2" to="tel:09117828923">
           arman rezvani
         </Link>

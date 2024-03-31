@@ -41,14 +41,17 @@ const Content = () => {
           <Slider
             sliderItems={gal.map((image, index) => {
               return (
-                <div key={index} className="h-[180px] w-full max-[560px]:h-[150px] max-[500px]:h-[130px] max-[460px]:h-[115px]">
+                <div
+                  key={index}
+                  className="h-[180px] w-full max-[560px]:h-[150px] max-[500px]:h-[130px] max-[460px]:h-[180px]"
+                >
                   <img src={image} className="w-full h-full rounded-xl" />
                 </div>
               );
             })}
-            slidesPerView={3}
+            slidesPerView={2}
             delay={1500}
-            spaceBetween={16}
+            spaceBetween={20}
             speed={2000}
             reverseDirection
             className="mx-auto h-full w-full overflow-visible"
@@ -74,7 +77,9 @@ const Content = () => {
           data-aos-offset="170"
           data-aos-duration="1200"
         >
-          <h3 className="font-zozo text-6xl font-bold text-secondary max-[1200px]:text-5xl max-[960px]:text-4xl max-[800px]:text-3xl max-[500px]:text-[39px] max-[500px]:pb-1">ZOZO</h3>
+          <h3 className="font-zozo text-6xl font-bold text-secondary max-[1200px]:text-5xl max-[960px]:text-4xl max-[800px]:text-3xl max-[500px]:text-[39px] max-[500px]:pb-1">
+            ZOZO
+          </h3>
           <p className="text-2xl text-secondary max-[1200px]:text-xl max-[1100px]:text-base max-[960px]:text-sm max-[730px]:text-xs max-[650px]:text-[10px] max-[500px]:text-sm">
             {" "}
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
@@ -83,8 +88,10 @@ const Content = () => {
             با هدف بهبود ابزارهای کاربردی می باشد. حال و آینده شناخت فراوان
             جامعه و متخصصان را می طلبد ...{" "}
           </p>
-          <a className="cursor-pointer text-primary text-2xl pb-3 pt-2 rounded-full bg-secondary-550 w-fit text-center mt-3 px-7
-          max-[1200px]:text-xl max-[1100px]:text-base max-[1100px]:py-2 max-[1100px]:pt-1 max-[960px]:text-sm max-[960px]:px-5 max-[730px]:text-xs max-[650px]:text-[10px] max-[650px]:py-[3px] max-[650px]:px-3 max-[650px]:mt-2 max-[500px]:text-sm max-[500px]:py-1 max-[500px]:px-6 max-[500px]:pb-2 max-[500px]:mb-4">
+          <a
+            className="cursor-pointer text-primary text-2xl pb-3 pt-2 rounded-full bg-secondary-550 w-fit text-center mt-3 px-7
+          max-[1200px]:text-xl max-[1100px]:text-base max-[1100px]:py-2 max-[1100px]:pt-1 max-[960px]:text-sm max-[960px]:px-5 max-[730px]:text-xs max-[650px]:text-[10px] max-[650px]:py-[3px] max-[650px]:px-3 max-[650px]:mt-2 max-[500px]:text-sm max-[500px]:py-1 max-[500px]:px-6 max-[500px]:pb-2 max-[500px]:mb-4"
+          >
             {" "}
             مشاهده بیشتر
           </a>
