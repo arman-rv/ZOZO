@@ -69,15 +69,15 @@ const Footer = () => {
               title="آدرس : "
               link="https://maps.app.goo.gl/GSwUFL5QFAwMoWoj8"
             />
-            <Items img={user} desc="خانوم ایکس" title="مدیریت : " />
+            <Items img={user} desc="خانوم زابلی" title="مدیریت : " />
           </div>
           <div className="flex flex-col gap-10 max-[1200px]:gap-12 max-[960px]:gap-10 max-[800px]:gap-8 max-[730px]:gap-10">
             <Items img={clock} desc="9 صبح تا 11 شب" title="ساعت کاری : " />
             <Items
               img={phone}
-              desc="09110000000"
+              desc="09120194650"
               title="تلفن : "
-              link="tel:09110000000"
+              link="tel:09120194650"
             />
           </div>
         </div>
