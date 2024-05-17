@@ -12,6 +12,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { Slider } from "./slider";
+import { Link } from "react-router-dom";
 
 const Content = () => {
   useEffect(() => {
@@ -82,19 +83,21 @@ const Content = () => {
           </h3>
           <p className="text-2xl text-secondary max-[1200px]:text-xl max-[1100px]:text-base max-[960px]:text-sm max-[730px]:text-xs max-[650px]:text-[10px] max-[500px]:text-sm">
             {" "}
-            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-            استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در
-            ستون و سطرآنچنان که لازم است و تکنولوژی مورد نیاز و کاربردهای متنوع
-            با هدف بهبود ابزارهای کاربردی می باشد. حال و آینده شناخت فراوان
-            جامعه و متخصصان را می طلبد ...{" "}
+            شما همیشه میتوانید برای شیک بودن بهترین ها را انتخاب کنید. با زوزو
+            وارد دنیایی از رنگ ها و طرح های متنوع شوید،از لباس های روزمره تا
+            لباس های شیک برای مجالس همگی در دنیای زوز. با ما همراه باشید تا لذت
+            خریدی آسان و سریع را تجربه کنید. برای مشاهده محصولات وارد پیج ما
+            شوید.
           </p>
-          <a
+          <Link
+            to="https://www.instagram.com/zozo_collection__"
+            target="blank"
             className="cursor-pointer text-primary text-2xl pb-3 pt-2 rounded-full bg-secondary-550 w-fit text-center mt-3 px-7
           max-[1200px]:text-xl max-[1100px]:text-base max-[1100px]:py-2 max-[1100px]:pt-1 max-[960px]:text-sm max-[960px]:px-5 max-[730px]:text-xs max-[650px]:text-[10px] max-[650px]:py-[3px] max-[650px]:px-3 max-[650px]:mt-2 max-[500px]:text-sm max-[500px]:py-1 max-[500px]:px-6 max-[500px]:pb-2 max-[500px]:mb-4"
           >
             {" "}
             مشاهده بیشتر
-          </a>
+          </Link>
         </div>
         <div
           className="overflow-hidden flex flex-row-reverse gap-5 rounded-2xl bg-primary w-2/3  h-[450px] shadow-[13px_13px_24px_4px_#2b2b2b20]
